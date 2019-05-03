@@ -1,6 +1,6 @@
 package day01;
 import java.util.Scanner;
-public class case06 {
+public class Logical01Soal06 {
 	
 	public static Scanner input;
 
