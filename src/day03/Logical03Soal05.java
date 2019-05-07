@@ -1,8 +1,8 @@
-package day02;
+package day03;
 
-public class ArrayExample1 {
+public class Logical03Soal05 {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		
 		int[][] array2 = new int[][] {{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}};
@@ -32,6 +32,5 @@ public class ArrayExample1 {
 		}
 		
 	}
-
 
 }
