@@ -19,31 +19,31 @@ public class Logical03Soal03 {
 		int[] array = deretTiga((n * 4), m, o);
 		int index = 0;
 		
-		//deret atas
+//		deret atas
 		for (int i = 0; i < n; i++) {
 			array2[0][i] = array[index];
 			index++;
 		}
 		
-		//deret kanan
+//		deret kanan
 		for (int i = 1; i < n; i++) {
 			array2[i][n-1]=array[index];
 			index++;
 		}
 		
-		//deret bawah
+//		deret bawah
 		for(int i = n-2; i>=0;i--) {
 			array2[6][i] = array[index];
 			index++;
 		}
 		
-		//deret kiri
+//		deret kiri
 		for(int i = n-2; i>0;i--) {
 			array2[i][0]=array[index];
 			index++;
 		}
 		
-		//cetak deret
+//		cetak deret
 		for (int i = 0; i < array2.length; i++) {
 			for (int j = 0; j < array2[i].length; j++) {
 				System.out.print(array2[i][j]+"\t");
@@ -52,7 +52,7 @@ public class Logical03Soal03 {
 		}
 	}
 
-	//deret angka
+//	deret angka
 	static int[] deretTiga(int n, int m, int o) {
 		int hasil[] = new int[n];
 		int angka = o;
