@@ -1,19 +1,10 @@
 
 public class test {
 
-	public static void main(String[]args){
-		int i = 0;
-		int x = 0;
-
-		System.out.print("Deret = ");
-		while(i<=6)
-		{
-		x = i * i + 1;
-
-		System.out.print(" "+ x +", ");
-		i++;
+	public static void main(String[] args) {
+		int[] a = new int[2];
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
 		}
-		System.out.println();
-		}
-
+	}
 }

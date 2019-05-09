@@ -12,7 +12,7 @@ public class Logical03Soal04 {
 		int m = input.nextInt();
 //		System.out.println("Masukkan O : ");
 //		int o = input.nextInt();
-		deretAngka(n);
+//		deretAngka(n);
 		int array[] = deretAngka(n);
 		int array2[] = deretAngka(n);
 		for(int i = 0; i <= m; i++ ) {
@@ -29,9 +29,9 @@ public class Logical03Soal04 {
 				}
 			}
 			
-			for(int l = 0; l < n; l++) {
-				array2[l]=array[l];
-			}
+//			for(int l = 0; l < n; l++) {
+//				array2[l]=array[l];
+//			}
 			
 		}
 

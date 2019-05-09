@@ -17,7 +17,7 @@ public class Logical03Soal02 {
 
 		int[] array = deretSegitiga((n * 3), m, o);
 		int index = 0;
-		int a = 0;
+//		int a = 0;
 
 		int array2[][] = new int[n][n];
 
