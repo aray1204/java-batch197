@@ -9,16 +9,26 @@ public class Orang {
 	public String jk;
 	public String noTelp;
 	
+	public Orang() {
+		
+	}
 	
+	public Orang(int id, String nama, String alamat, String jk, String noTelp) {
+		this.id = id;
+		this.nama = nama;
+		this.alamat = alamat;
+		this.jk = jk;
+		this.noTelp = noTelp;
+	}
 	
 	public int perhitungan(int a, int b, int c) {
 		
 		return a+b+c;
 	}
 	
-	public String inputData(int id, String nama, String alamat, String jk, String noTelp) {
-		return nama;
-	}
+//	public String inputData(int id, String nama, String alamat, String jk, String noTelp) {
+//		return nama;
+//	}
 	
 	public void cetakData() {
 		System.out.println("ID \t\t"+id);
@@ -27,4 +37,6 @@ public class Orang {
 		System.out.println("Jenis Kelamin \t"+jk);
 		System.out.println("Nomor Telpon \t"+noTelp);
 	}
+	
+	
 }

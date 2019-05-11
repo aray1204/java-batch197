@@ -25,22 +25,30 @@ public class Logic05Soal01 {
 		org02.jk = "Pria";
 		org02.noTelp = "021-7782xxxx";
 		
+		
+		
 		org02.cetakData();
+		
+		
 		
 		Orang org03 = new Orang();
 		
 		
-		Orang org04 = new Orang();
-		Orang org05 = new Orang();
-		Orang org06 = new Orang();
-		Orang org07 = new Orang();
-		Orang org08 = new Orang();
-		Orang org09 = new Orang();
-		Orang org10 = new Orang();
-		Orang org11 = new Orang();
+		Orang org04 = new Orang(1,"arif","depok","laki-laki","08232992392");
+		org04.cetakData();
+		Orang org05 = new Orang(2,"taufik","bekasi","laki-laki","0877XXXXXXXX");
+		org05.cetakData();
+//		Orang org06 = new Orang();
+//		Orang org07 = new Orang();
+//		Orang org08 = new Orang();
+//		Orang org09 = new Orang();
+//		Orang org10 = new Orang();
+//		Orang org11 = new Orang();
 		
 		int hasil = org04.perhitungan(3,4,5);
 		System.out.println(hasil);
+		
+		
 	}
 
 }
